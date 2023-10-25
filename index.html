@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="p.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(bgedu.avif);
+            margin: 0;
+            padding: 0;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .education {
+            max-width: 100%;
+            margin: 0 auto;
+            background-color:black;
+            padding: 20px;
+            box-shadow: 0px 0px 10px 0px brown;
+            border-radius: 10px;
+            margin-top: 50px;
+
+        }
+
+        .education h1 {
+            text-align: center;
+            color: brown;
+        }
+
+        .education-info {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+
+        .education-item {
+            background-color:#B3A492;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px 0px bisque;
+            text-align: center;
+            width: 45%;
+        }
+
+        h2 {
+            color:#176B87;
+        }
+
+        p {
+            color:brown;
+            margin: 10px 0;
+        }
+
+        .go-back-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .go-back-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <h2 class="logo">Portfolio</h2>
+            <ul>
+                <li><a href="#aboutMe">ABOUT ME</a></li>
+                <li><a href="#Education-info">EDUCATION</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#mycertificates">CERTIFICATES</a></li>
+                <li><a href="#contactd">CONTACT</a></li>
+            </ul>   
+        </div>
+
+        <div class="info">
+            <h3>Hello,my name is</h3>
+            <h1>Divya<span> R Vaidya</span></h1>
+           
+            <a type="pdf" href="cv Divya R Vaidya.pdf">Download CV</a>
+        </div>
+    </div>
+
+    <!------------------------About me------------------------------------------------>
+    <section class="about" id="aboutMe">
+        <div class="personal">
+            <img src="me.jpeg">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h5>Full Stack Developer</h5>
+                <p>I am a full stack web Developer, i can provide clean code and pixel perfect design.
+                    I have completed several projects during my coursework,  which helped me gain experience in 
+                  JAVA, HTML ,CSS and many skills. I am also certified in [Full Stack Web Development ].
+                  I'm excited to bring my skills and experience to your team and help build innovative solutions that solve real-world problems.
+                   Thank you for visiting my Portfolio                </p>
+                
+
+                <center>
+                  <a href="index.html"><button class="go-back-button" onclick="goBack()">Go Back</button></a> 
+               </center>
+           </div>
+        
+           <script>
+               function goBack() {
+                   window.history.back();
+               }
+           </script>
+            </div>
+        </div>
+    </section>
+     <!------------------Education-------------------------------------------->
+
+     
+     <section class="Education" id="Education-info">
+     <div class="education">
+    
+
+    <div class="container1">
+        <h1>Education Details</h1>
+        <div class="education-info">
+            <div class="education-item">
+                <h2>BE/BTECH</h2>
+                <p>Don Bosco Institute of Technology,Bengaluru <br>Electronics and Communication<br> (Visvesvaraya Technological University)</p>
+                <p>Year of Passing: 2023</p>
+            </div>
+            <div class="education-item">
+                <h2>PUC</h2>
+                <p>Deeksha Surana College,Bengaluru</p>
+                <p>Year of Passing: 2019</p>
+            </div>
+        </div><br><br>
+        <center>
+            <div class="education-item">
+                <h2>SSLC</h2>
+                <p>PriyaDarshini Vidya Kendra Bengaluru</p>
+                <p>Year of Passing: 2017</p>
+            </div>
+            <a href="index.html"><button class="go-back-button" onclick="goBack()">Go Back</button></a>
+        </center>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+    </div>
+</section>
+
+    <!-----------------Projects------------------------------------------------>
+    <style>
+
+      #projects .section-title{
+        font-size: 4rem;
+        font-weight: 300;
+        color: brown;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+      }
+      #projects .projects{
+        flex-direction: column;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 100px 0;
+        background-color: #000000;
+        background-position:center ;
+        background-size: cover;
+
+
+      }
+      #projects .projects-header h1{
+         margin-bottom: 50px;
+      }
+      #projects .all-projects{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+      }
+      #projects .project-item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        margin: 20px auto;
+        overflow: hidden;
+        border-radius: 10px;
+      }
+      #projects .project-info{
+        padding: 30px;
+        flex-basis: 50%;
+        background-color: #000000;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #4c4a4a;
+        color: #FFF;
+      }
+      #projects .project-info h1{
+        font-size: 4rem;
+        font-weight: 500;
+        color: #BCA37F;
+
+      }
+      #projects .project-info h2{
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin-top: 10px;
+        color: bisque;
+      }
+      #projects .project-info p{
+        color:bisque;
+      }
+      
+     
+      
+
+      }
+      #goBackButton {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        #goBackButton:hover {
+            background-color: #333;
+        }
+
+
+    </style>
+     <section id="projects">
+      <div class="projects container">
+        <div class="projects-header">
+          <h1 class="section-title">Projects</h1>
+        </div>
+        <div class="all-projects">
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Project 1</h1>
+              <h2>Hand Gesture Recognitiion to text</h2>
+              <p>
+                This technique essentially includes detection and segmentation
+          ,feature extraction and recognition of number of gestures. <br>
+             The essential aim of building hand gesture recognition system
+            is to
+            create a natural interactionbetween human and computer <br>
+             I have Utilized machine learning with python and neural networks.
+              </p>
+            </div>
+            
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Project 2</h1>
+              <h2>Intelligent Packaging System</h2>
+              <p>
+                Design and implementation of non destructive package and
+                verification
+                solution.
+                 <br>
+                 - Utilized Arduino ATmega2560 and embedded c to integrate all
+                 the sensors
+                 and modules. <br>
+                 The data is monitored in real-time on the cloud as well as in
+      the IPS
+      development kit.<br>
+      - This implementation can prove to be very effective in providing
+      security for the goods and also ensures the safe delivery of goods
+      to respective enterprises/costumers. <br>
+              </p>
+            </div>
+            
+            <br>
+         <br>
+         <br>
+
+
+        
+
+            
+         <center>
+          <a href="index.html"><button class="go-back-button" onclick="goBack()">Go Back</button></a> 
+       </center>
+   </div>
+
+   <script>
+       function goBack() {
+           window.history.back();
+       }
+   </script>
+          </div>
+        </div>
+
+      </div>
+     </section>
+    
+
+<!--------------------------------Certificates------------------------------------------------------>
+
+
+<section class="cerificates" id="mycertificates">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .certibg {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+           background-color: #000000;
+        }
+
+        .container2 {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color:black;
+            padding: 20px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: 50px;
+        }
+
+        .container2 h1 {
+            text-align: center;
+            color: brown;
+        }
+
+        .certificates {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+         #certibg.container2 .certificate-item {
+            margin: 10px;
+            text-align: center;
+        }
+
+        .certificate-item a{
+          text-decoration:  none;
+           color: #fff;
+           background: #DE8F5F;
+           margin: 26px 0;
+           border: 2px solid transparent;
+            padding: 10px 18px;
+            border-radius: 20px;
+           display: inline-block;
+            transition: .4s ease;
+        }
+        .certificate-item  a:hover{
+          background:brown;
+          transform: scale(1.2);
+
+        }
+
+
+
+        .go-back-button {
+          background-color: black;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .go-back-button:hover {
+          background-color: #333;
+        }
+    </style>
+</head>
+
+<div class="certibg">
+    <div class="container2">
+        <h1>My Certificates</h1>
+        <div class="certificates">
+
+            <div class="certificate-item">
+              <a type="pdf" href="degree.pdf">View degree Certificate</a>
+                <p><strong>Certificate 1</strong></p>
+            </div>
+
+                
+            <div class="certificate-item">
+              <a type="pdf" href="pu.jpeg">View PU Certificate</a>
+                <p><strong>Certificate 2</strong></p>
+            </div>
+
+
+            <div class="certificate-item">
+              <a type="pdf" href="sslc.jpeg">View SSLC Certificate</a>
+                <p><strong>Certificate 3</strong></p>
+            </div>
+
+            <div class="certificate-item">
+              <a type="pdf" href="int.jpeg">View Internship Certificate</a>
+                <p><strong>Certificate 4</strong></p>
+            </div>
+
+        </div>
+        <center>
+           <a href="index.html"><button class="go-back-button" onclick="goBack()">Go Back</button></a> 
+        </center>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</div>
+</section>
+
+
+
+    <!----------------Contact Me----------------------------------------------->
+    <style>
+      .contact{
+        position: relative;
+        min-height: 100vh;
+        padding: 50px 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: url(contact.jpeg);
+        background-size: cover;
+      }
+      .contact .content{
+        max-width: 800px;
+        text-align: center;
+      }
+      .contact .content h2{
+        font-size: 36px;
+        font-weight: 500;
+        color: #000000;
+      }
+      .contact .content p{
+        font-size: 20px;
+        font-weight: 300;
+        color:brown;
+      }
+      .container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+      }
+      .container .contactInfo{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+
+      }
+      .container .contactInfo .box{
+        position: relative;
+        padding: 20px 0;
+        display: flex;
+      }
+
+      .container .contactInfo .box .icon{
+        min-width: 60px;
+        height: 60px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 22px;
+
+      }
+
+      .container .contactInfo .box .text{
+        display: flex;
+        margin-left: 20px;
+        font-size: 16px;
+        color: #FFF;
+        flex-direction: column;
+        font-weight: 300;
+
+      }
+
+      .container .contactInfo .box .text h3{
+        font-weight: 500;
+        color:beige;
+
+      }
+
+      .contactForm{
+        width: 40%;
+        padding: 40px;
+        background: #FFF;
+
+      }
+
+      .contactForm h2{
+        font-size: 30px;
+        color: #333;
+        font-weight: 500;
+      }
+      
+      .contactForm .inputBox{
+        position: relative;
+        width: 100%;
+        margin-top: 10px;
+
+      }
+
+      .contactForm .inputBox input,
+      .contactForm .inputBox textarea{
+
+        width: 100%;
+        padding: 5px 0;
+        font-size: 16px;
+        margin: 10px 0;
+        border: none;
+        border-bottom: 2px solid #333;
+        outline: none;
+        resize: none;
+      }
+
+      .contactForm .inputBox span{
+        position: absolute;
+        left: 0;
+        padding: 5px 0;
+        font-size: 16px;
+        margin: 10px 0;
+        pointer-events: none;
+        transition: 0.5s;
+        color: #666;
+
+      }
+
+      .contactForm .inputBox input:focus ~ span,
+      .contactForm .inputBox input:valid ~ span,
+      .contactForm .inputBox textarea:focus ~ span,
+      .contactForm .inputBox textarea:valid ~ span{
+        color: #e91e63;
+        font-size: 12px;
+        transform: translate(-20px);
+
+
+      }
+
+      .contactForm .inputBox input[type="submit"]
+      {
+        width: 100px;
+        background-color: #00bcd4;
+        color: #FFF;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 18px;
+      }
+
+      @media (max-width: 991px){
+        .contact{
+          padding: 50px;
+
+        }
+        .container{
+          flex-direction: column;
+
+        }
+      }
+    </style>
+    <section class="contact" id="contactd">
+      <div class="content">
+        <h2>Contact Me</h2>
+        <p>Have a project in mind or just want to chat about all things tech? I'm here to listen and create.
+          Get in touch,and let's transform your vision into a functional masterpiece.</p>
+      </div>
+      <div class="container">
+        <div class="contactInfo">
+          <div class="box">
+            <div class="icon"> <i class="fa fa-map-marker" aria-hidden="true"></i></div>
+            <div class="text">
+              <h3>Address</h3>
+              <p>Kengeri Upanagara,<br>Bengaluru,Karnataka,<br>560060</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fa fa-reply" aria-hidden="true"></i></div>
+            <div class="text">
+              <h3>Email</h3>
+              <p>divyarvaidya@gmail.com</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+            <div class="text">
+              <h3>Phone</h3>
+              <p>7795460026</p>
+            </div>
+          </div>
+        </div>
+        <div class="contactForm">
+          <form >
+            <h2>Send Message</h2>
+            
+            <div class="inputBox">
+              <input type="text" name="" required>
+              <span>Full Name</span>
+            </div>
+            <div class="inputBox">
+              <input type="text" name="" required>
+              <span>Email</span>
+            </div>
+            <div class="inputBox">
+              <input type="text" name="" required>
+              <span>Type your Message...</span>
+            </div>
+            <div class="inputBox">
+              <input type="submit" name="" value="Send">
+             
+            </div>
+          </form>
+          
+        </div>
+        
+      </div>
+      <center>
+        <a href="index.html"><button class="go-back-button" onclick="goBack()">Go Back</button></a> 
+     </center>
+ </div>
+
+ <script>
+     function goBack() {
+         window.history.back();
+     }
+ </script>
+
+
+    </section>
+   
+</body>
+</html>

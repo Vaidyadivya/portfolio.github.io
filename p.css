@@ -1,0 +1,151 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url(bbbb.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color:brown;
+    font-size: 50px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    font-size: xx-large;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+ul li a{
+    font-size: 16px;
+   
+    text-decoration: none;
+   
+   
+    transition: .4s ease;
+    color:#ECA869;
+   
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+
+ul li a:hover{
+    color: brown;
+    transition: .4s;
+}
+
+.info{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1{
+    color:rgb(192, 147, 62);
+    margin: 20px 0px 20px;
+    font-size: 75px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3{
+    color:#ECA869;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+
+.info a{
+    text-decoration:  none;
+    color: #fff;
+    background: rgb(172, 5, 88);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.info a:hover{
+    background:brown;
+
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+
+.about img{
+    height: auto;
+    width: 500px;
+}
+
+.about-text{
+    width: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.personal{
+    width: 1530px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: rgb(206, 65, 65);
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 2px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
